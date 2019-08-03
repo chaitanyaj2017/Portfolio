@@ -31,7 +31,7 @@ $background-opacity:0.9;
         
     }
 }
-
+//test comment
 // Set Text Color
 @function set-text-color($color) {
     @if (lightness($color) > 40) {
