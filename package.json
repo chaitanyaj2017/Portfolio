@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "portfolio website chaitanya joshi",
   "main": "index.js",
-  "homepage": "https://chaitanyaj2017.github.io/Portfolio",
+  "homepage": "https://chaitanyaj2017.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w SassWorkflow/ -o files/css/ --recursive",
     "deploy": "gh-pages -d files"
