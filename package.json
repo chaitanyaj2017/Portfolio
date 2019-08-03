@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "portfolio website chaitanya joshi",
   "main": "index.js",
+  "homepage": "https://chaitanyaj2017.github.io/Portfolio",
   "scripts": {
-    "sass": "node-sass -w SassWorkflow/ -o files/css/ --recursive"
+    "sass": "node-sass -w SassWorkflow/ -o files/css/ --recursive",
+    "deploy": "gh-pages -d files"
   },
   "author": "Chaitanya",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.1.0",
     "node-sass": "^4.12.0"
   }
 }
