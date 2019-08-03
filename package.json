@@ -6,7 +6,7 @@
   "homepage": "https://chaitanyaj2017.github.io/portfolio",
   "scripts": {
     "sass": "node-sass -w SassWorkflow/ -o files/css/ --recursive",
-    "deploy": "gh-pages -d files"
+    "deploy": "gh-pages-deploy -d files"
   },
   "author": "Chaitanya",
   "license": "MIT",
